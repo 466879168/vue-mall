@@ -11,3 +11,8 @@
 + store vuex
 + views 组件文件夹
   + 
+  
+## 开发步骤
+1. 目录划分
+2. 引入css文件
+3. vue.config.js和.editorconfig配置文件
