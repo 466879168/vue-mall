@@ -144,7 +144,7 @@
         this.isTabFixed=(-position.y)>this.tabOffsetTop
       },
       loadMore(){
-        console.log('上拉加载更多')
+        //console.log('上拉加载更多')
         this.getHomeGoods(this.currentType)
       },
       swiperImageLoad(){
