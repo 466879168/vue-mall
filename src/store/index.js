@@ -20,6 +20,7 @@ const store = new Vuex.Store({
   },
   mutations: {
     addCart(state, payload) {
+			payload.checked=true
       //payload是新添加的商品
       let oldProduct = null
       for (let item of state.cartList) {
